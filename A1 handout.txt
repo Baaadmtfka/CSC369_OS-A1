@@ -1,0 +1,4 @@
+This exercise is downloaded from, and submitted to, MarkUs. After completing this assignment, you should be able to:
+
+Write a simplified operating system kernel, in C, that manages processes. This includes implementing the mechanisms for loading and running (simple) programs, handling exceptions, and context switching between processes. In addition, this includes designing data structures that need to be maintained by the kernel for controlling processes.
+Communicate, in English and through figures, how specific mechanisms, system calls, or events are executed and/or supported in your operating system kernel.

@@ -1,0 +1,84 @@
+\documentclass[parskip=half]{scrarticle}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\usepackage{listings}
+
+\lstset{% general command to set parameter(s)
+    basicstyle=\small,          % print whole listing small
+    stringstyle=\ttfamily,      % typewriter type for strings
+    frame=tb,
+} % no special string spaces
+
+\title{Assignment 1: Process Management}
+\subtitle{CSC369H1 -- Computer Organization}
+
+% TODO: Enter your name
+\author{Your Name}
+
+\begin{document}
+\maketitle
+
+\section{Loading and running a program}
+
+Answer the question:
+``How is a program loaded and run on the Unicorn Processor?''
+using 300 words or fewer.
+Another way to phrase this question is ``How did you turn a program executable into a running process?''
+You may include up to one figure.
+Your answer should describe the sequence of steps that \textit{you} take (i.e., this should not be an answer about a generic OS), including how you interact with the data structures you have designed and their attributes.
+
+\begin{figure}[ht!]
+    \centering
+    % \includegraphics[width=0.7\textwidth]{part1.png}
+    \caption{TODO}
+\end{figure}
+
+\section{Supporting system calls}
+
+Answer the question:
+``How would you design a system call that prints a pointer to an integer?''
+using 300 words or fewer.
+You can assume that the pointer contains an address on the stack (since our user programs do not have a heap).
+Your answer may include up to two short ``listings'' (i.e., code snippets), not included in the word count.
+For example, your listings could show how the user makes the system call and how the kernel would handle the system call.
+You should \textbf{not} implement this in your code.
+
+\begin{lstlisting}[caption=TODO, label=l:TODO1]
+# TODO
+\end{lstlisting}
+
+\begin{lstlisting}[caption=TODO, label=l:TODO2]
+# TODO
+\end{lstlisting}
+
+\section{Process switch on exit}
+
+Answer the question:
+``How and when did you clean up a process that had finished?''
+using 300 words or fewer.
+You may include up to one figure.
+Your answer should describe the sequence of steps that \textit{you} take (i.e., this should not be an answer about a generic OS), including how you interact with the data structures you have designed and their attributes.
+
+\begin{figure}[ht!]
+    \centering
+    % \includegraphics[width=0.7\textwidth]{part3.png}
+    \caption{TODO}
+\end{figure}
+
+\section{Cooperative process switching}
+
+Answer the question:
+``What are the different states a process in your kernel can be in, and how does a process transition between states?''
+using 300 words or fewer.
+You may include up to one figure.
+You may find it useful to model your answer (and figure) on how it is presented in lecture or the textbook.
+
+\begin{figure}[ht!]
+    \centering
+    % \includegraphics[width=0.7\textwidth]{part4.png}
+    \caption{TODO}
+\end{figure}
+
+\end{document}
